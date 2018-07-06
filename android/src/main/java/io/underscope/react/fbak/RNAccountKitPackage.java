@@ -25,7 +25,7 @@ public class RNAccountKitPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    //@Override   FixMe: For newer version of react-native this line must be commited as tempfix
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
